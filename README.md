@@ -12,4 +12,4 @@ A Random Forest Classifier was trained and implemented for the dataset. The mode
 
 ## Rest API
 
-`FastAPI` was used to get requests and predict the authentication of bank notes
+`FastAPI` was used to get requests and predict the authentication of bank notes.
