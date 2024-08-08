@@ -8,8 +8,8 @@ Data is taken from the dataset [Bank Authentication UCI Data - Kaggle.com](https
 
 ## Machine Learning Model
  
-A Random Forest Classifier was trained and implemented for the dataset.
+A Random Forest Classifier was trained and implemented for the dataset. The model was saved and implemented using the `pickle` module.
 
 ## Rest API
 
-FastAPI was used to get requests and predict the authentication of bank notes
+`FastAPI` was used to get requests and predict the authentication of bank notes
