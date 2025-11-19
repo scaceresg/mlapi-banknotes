@@ -10,3 +10,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Run a hello world script
         run: echo "Hello, world!"
+  say-bye:
+    needs: say-hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run a goodbye script
+        run: echo "Goodbye!"
